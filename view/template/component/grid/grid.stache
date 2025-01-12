@@ -1,0 +1,17 @@
+<div class="tableview-header">
+    <table>
+        <thead>
+            <tr>
+{{#columnModel}}
+    {{>../columnHeaderTemplate columnModel=this}}
+{{/columnModel}}
+            </tr>
+        </thead>
+    </table>
+</div>
+<div class="tableview-content scroll">
+    <table>
+        <tbody>
+        </tbody>
+    </table>
+</div>

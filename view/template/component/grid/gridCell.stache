@@ -1,0 +1,3 @@
+<div title="{{../mappedItem[name]}}">
+	{{../mappedItem[name]}}
+</div>

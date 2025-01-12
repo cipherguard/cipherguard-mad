@@ -1,0 +1,17 @@
+<th class="js_grid_column js_grid_column_{{name}} cell_{{name}} {{css.join(' ')}} {{#if(sortable)}}sortable{{/if}}">
+{{#if(sortable)}}
+    <a>
+    {{#if(label.name)}}
+        {{>label}}
+    {{#else}}
+        {{label}}
+    {{/if}}
+    </a>
+{{#else}}
+    {{#if(label.name)}}
+        {{>label}}
+    {{#else}}
+        {{label}}
+    {{/if}}
+{{/if}}
+</th>

@@ -1,0 +1,7 @@
+{
+  "app": {
+    "debug": 0,
+    "url": "http://localhost",
+    "namespace": "app"
+  }
+}
